@@ -38,7 +38,7 @@ sudo apt-get install ros-kinetic-amcl
 sudo apt-get install ros-kinetic-rtabmap-ros
 ```
 
-## Setup Instructions (abbreviated)  
+## Setup Instructions
 1. Meet the `Prerequisites/Dependencies`  
 2. Open Ubuntu Bash and clone the project repository  
 3. On the command line execute  
@@ -50,7 +50,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 ## Project Description  
 Directory Structure  
 ```
-.Map-My-World                                  # Map My World Project
+.Map-My-World                                  
 └── catkin_ws
     ├── build
     │   ├── atomic_configure
