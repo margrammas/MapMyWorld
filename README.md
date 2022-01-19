@@ -1,5 +1,5 @@
-# RoboND - Project3: Where I Am
-Project 3 of Udacity Robotics Software Engineer Nanodegree Program
+# RoboND - Project4: Map My World
+Project 4 of Udacity Robotics Software Engineer Nanodegree Program
 
 ![pic1](pj4_2.png)
 ![pic2](pj4_1.png) 
@@ -37,14 +37,6 @@ sudo apt-get install ros-kinetic-amcl
 ```
 sudo apt-get install ros-kinetic-rtabmap-ros
 ```
-* make >= 4.1(mac, linux), 3.81(Windows)
-  * Linux: make is installed by default on most Linux distros
-  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
-  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
-* gcc/g++ >= 5.4
-  * Linux: gcc / g++ is installed by default on most Linux distros
-  * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
-  * Windows: recommend using [MinGW](http://www.mingw.org/)
 
 ## Setup Instructions (abbreviated)  
 1. Meet the `Prerequisites/Dependencies`  
@@ -59,134 +51,142 @@ sudo apt-get update && sudo apt-get upgrade -y
 Directory Structure  
 ```
 .Map-My-World                                  # Map My World Project
-├── catkin_ws                                  # Catkin workspace
-│   ├── frames.pdf                             # view_frames result
-│   ├── src
-│   │   ├── ball_chaser                        # ball_chaser package        
-│   │   │   ├── launch                         # launch folder for launch files
-│   │   │   │   ├── ball_chaser.launch
-│   │   │   ├── src                            # source folder for C++ scripts
-│   │   │   │   ├── drive_bot.cpp
-│   │   │   │   ├── process_images.cpp
-│   │   │   ├── srv                            # service folder for ROS services
-│   │   │   │   ├── DriveToTarget.srv
-│   │   │   ├── CMakeLists.txt                 # compiler instructions
-│   │   │   ├── package.xml                    # package info
-│   │   ├── my_gokart                          # my_gokart package        
-│   │   │   ├── launch                         # launch folder for launch files   
-│   │   │   │   ├── gokart_description.launch
-│   │   │   │   ├── world.launch
-│   │   │   ├── urdf                           # urdf folder for xarco files
-│   │   │   │   ├── my_gokart.gazebo
-│   │   │   │   ├── my_gokart.xacro
-│   │   │   ├── worlds                         # world folder for world files
-│   │   │   │   ├── empty.world
-│   │   │   │   ├── myoffice.world
-│   │   │   ├── CMakeLists.txt                 # compiler instructions
-│   │   │   ├── package.xml                    # package info
-│   │   ├── my_robot                           # my_robot package        
-│   │   │   ├── config                         # config folder for configuration files   
-│   │   │   │   ├── base_local_planner_params.yaml
-│   │   │   │   ├── costmap_common_params.yaml
-│   │   │   │   ├── global_costmap_params.yaml
-│   │   │   │   ├── local_costmap_params.yaml
-│   │   │   ├── launch                         # launch folder for launch files   
-│   │   │   │   ├── amcl.launch
-│   │   │   │   ├── robot_description.launch
-│   │   │   │   ├── world.launch
-│   │   │   │   ├── mapping.launch
-│   │   │   │   ├── localization.launch
-│   │   │   ├── maps                           # maps folder for maps
-│   │   │   │   ├── myoffice.pgm
-│   │   │   │   ├── myoffice.yaml
-│   │   │   ├── meshes                         # meshes folder for sensors
-│   │   │   │   ├── hokuyo.dae
-│   │   │   ├── rviz                           # rviz folder for rviz configuration files
-│   │   │   │   ├── default.rviz
-│   │   │   ├── urdf                           # urdf folder for xarco files
-│   │   │   │   ├── my_robot.gazebo
-│   │   │   │   ├── my_robot.xacro
-│   │   │   ├── worlds                         # world folder for world files
-│   │   │   │   ├── empty.world
-│   │   │   │   ├── myoffice.world
-│   │   │   ├── CMakeLists.txt                 # compiler instructions
-│   │   │   ├── package.xml                    # package info
-│   │   ├── pgm_map_creator                    # pgm_map_creator        
-│   │   │   ├── launch                         # launch folder for launch files   
-│   │   │   │   ├── request_publisher.launch
-│   │   │   ├── maps                           # maps folder for generated maps
-│   │   │   │   ├── Backup_map.pgm
-│   │   │   │   ├── map.pgm
-│   │   │   ├── msgs                           # msgs folder for communication files
-│   │   │   │   ├── CMakeLists.txt
-│   │   │   │   ├── collision_map_request.proto
-│   │   │   ├── src                            # src folder for main function
-│   │   │   │   ├── collision_map_creator.cc
-│   │   │   │   ├── request_publisher.cc
-│   │   │   ├── world                          # world folder for world files
-│   │   │   │   ├── myoffice.world
-│   │   │   │   ├── udacity_mtv
-│   │   │   ├── CMakeLists.txt                 # compiler instructions
-│   │   │   ├── LICENSE                        # License for repository
-│   │   │   ├── README.md                      # README for documentation
-│   │   │   ├── package.xml                    # package info
-│   │   ├── teleop_twist_keyboard              # teleop_twist_keyboard
-│   │   │   ├── CHANGELOG.rst                  # change log
-│   │   │   ├── CMakeLists.txt                 # compiler instructions
-│   │   │   ├── README.md                      # README for documentation
-│   │   │   ├── package.xml                    # package info
-│   │   │   ├── teleop_twist_keyboard.py       # keyboard controller
-├── my_ball                                    # Model files 
-│   ├── model.config
-│   ├── model.sdf
-├── screenshots                                # Screenshots
-│   ├── Overview.png                           # Screenshot for overview
+└── catkin_ws
+    ├── build
+    │   ├── atomic_configure
+    │   ├── catkin
+    │   │   └── catkin_generated
+    │   │       └── version
+    │   ├── catkin_generated
+    │   │   ├── installspace
+    │   │   └── stamps
+    │   │       └── Project
+    │   ├── CMakeFiles
+    │   │   ├── 3.5.1
+    │   │   │   ├── CompilerIdC
+    │   │   │   └── CompilerIdCXX
+    │   │   ├── clean_test_results.dir
+    │   │   ├── CMakeTmp
+    │   │   ├── download_extra_data.dir
+    │   │   ├── doxygen.dir
+    │   │   ├── run_tests.dir
+    │   │   └── tests.dir
+    │   ├── gtest
+    │   │   ├── CMakeFiles
+    │   │   │   ├── gmock.dir
+    │   │   │   │   ├── src
+    │   │   │   │   └── usr
+    │   │   │   │       └── src
+    │   │   │   │           └── gtest
+    │   │   │   │               └── src
+    │   │   │   └── gmock_main.dir
+    │   │   │       ├── src
+    │   │   │       └── usr
+    │   │   │           └── src
+    │   │   │               └── gtest
+    │   │   │                   └── src
+    │   │   └── gtest
+    │   │       └── CMakeFiles
+    │   │           ├── gtest.dir
+    │   │           │   └── src
+    │   │           └── gtest_main.dir
+    │   │               └── src
+    │   ├── my_robot
+    │   │   ├── catkin_generated
+    │   │   │   ├── installspace
+    │   │   │   └── stamps
+    │   │   │       └── my_robot
+    │   │   └── CMakeFiles
+    │   │       └── _catkin_empty_exported_target.dir
+    │   ├── pgm_map_creator
+    │   │   ├── catkin_generated
+    │   │   │   ├── installspace
+    │   │   │   └── stamps
+    │   │   │       └── pgm_map_creator
+    │   │   ├── CMakeFiles
+    │   │   │   ├── collision_map_creator.dir
+    │   │   │   │   └── src
+    │   │   │   ├── request_publisher.dir
+    │   │   │   │   └── src
+    │   │   │   ├── roscpp_generate_messages_cpp.dir
+    │   │   │   ├── roscpp_generate_messages_eus.dir
+    │   │   │   ├── roscpp_generate_messages_lisp.dir
+    │   │   │   ├── roscpp_generate_messages_nodejs.dir
+    │   │   │   ├── roscpp_generate_messages_py.dir
+    │   │   │   ├── rosgraph_msgs_generate_messages_cpp.dir
+    │   │   │   ├── rosgraph_msgs_generate_messages_eus.dir
+    │   │   │   ├── rosgraph_msgs_generate_messages_lisp.dir
+    │   │   │   ├── rosgraph_msgs_generate_messages_nodejs.dir
+    │   │   │   ├── rosgraph_msgs_generate_messages_py.dir
+    │   │   │   ├── std_msgs_generate_messages_cpp.dir
+    │   │   │   ├── std_msgs_generate_messages_eus.dir
+    │   │   │   ├── std_msgs_generate_messages_lisp.dir
+    │   │   │   ├── std_msgs_generate_messages_nodejs.dir
+    │   │   │   └── std_msgs_generate_messages_py.dir
+    │   │   └── msgs
+    │   │       └── CMakeFiles
+    │   │           └── collision_map_creator_msgs.dir
+    │   ├── teleop_twist_keyboard
+    │   │   ├── catkin_generated
+    │   │   │   ├── installspace
+    │   │   │   └── stamps
+    │   │   │       └── teleop_twist_keyboard
+    │   │   └── CMakeFiles
+    │   └── test_results
+    ├── devel
+    │   ├── lib
+    │   │   ├── pgm_map_creator
+    │   │   └── pkgconfig
+    │   └── share
+    │       ├── my_robot
+    │       │   └── cmake
+    │       ├── pgm_map_creator
+    │       │   └── cmake
+    │       └── teleop_twist_keyboard
+    │           └── cmake
+    └── src
+        ├── my_robot
+        │   ├── config
+        │   │   └── __MACOSX
+        │   ├── launch
+        │   ├── maps
+        │   ├── meshes
+        │   ├── urdf
+        │   └── worlds
+        │       └── worldchasesim
+        ├── pgm_map_creator
+        │   ├── launch
+        │   ├── maps
+        │   ├── msgs
+        │   ├── src
+        │   └── world
+        └── teleop_twist_keyboard
 ```
-- [Overview.png](/screenshots/Overview.png): An overview screenshot to demo the final result
-- [drive_bot.cpp](/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
-- [process_images.cpp](/catkin_ws/src/ball_chaser/src/process_images.cpp): ROS service C++ script, process the camera image and return requested speeds.  
-- [gokart_description.launch](/catkin_ws/src/my_gokart/launch/gokart_description.launch): Create gokart model in Gazebo world.  
-- [world.launch](/catkin_ws/src/my_gokart/launch/world.launch): Launch my_gokart mode in Gazebo world with building and plugins.  
-- [my_gokart.gazebo](/catkin_ws/src/my_gokart/urdf/my_gokart.gazebo): Define my_gokart URDF model plugins.  
-- [my_gokart.xacro](/catkin_ws/src/my_gokart/urdf/my_gokart.xacro): Define my_gokart URDF model.  
-- [empty.world](/catkin_ws/src/my_gokart/worlds/empty.world): Gazebo world file that includes nothing.  
-- [myoffice.world](/catkin_ws/src/my_gokart/worlds/myoffice.world): Gazebo world file that includes the models.  
-- [CMakeLists.txt](/catkin_ws/src/my_gokart/CMakeLists.txt): File to link the C++ code to libraries.  
-- [robot_description.launch](/catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world.  
-- [hokuyo.dae](/catkin_ws/src/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
-- [my_robot.gazebo](/catkin_ws/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
-- [my_robot.xacro](/catkin_ws/src/my_robot/urdf/my_robot.xacro): Define my_robot URDF model.  
-- [amcl.launch](/catkin_ws/src/my_robot/launch/amcl.launch): Launch AMCL node
-- [myoffice.pgm](/catkin_ws/src/my_robot/maps/myoffice.pgm): Generated myoffice map
-- [myoffice.yaml](/catkin_ws/src/my_robot/maps/myoffice.yaml): Info for myoffice map
-- [default.rviz](/catkin_ws/src/my_robot/rviz/default.rviz): Default rviz
-- [map.pgm](/catkin_ws/src/pgm_map_creator/maps/map.pgm): Generated myoffice map
-- [localization.launch](/catkin_ws/src/my_robot/launch/localization.launch): Launch localization node
-- [mapping.launch](/catkin_ws/src/my_robot/launch/mapping.launch): Launch mapping node
 
 ## Run the project  
 * Clone this repository
 ```
-https://github.com/jinchaolu/RoboND-Term1-P4-Map-My-World.git
+https://github.com/margrammas/MapMyWorld.git
 ```
 * Open the repository and make  
 ```
-cd /home/workspace/RoboND-Term1-P4-Map-My-World/catkin_ws/
+cd /home/workspace/MapMyWorld/catkin_ws
 catkin_make
+source devel/setup.bash
 ```
 * Launch my_robot in Gazebo to load both the world and plugins  
 ```
 roslaunch my_robot world.launch
 ```  
-* Launch teleop_twist_keyboard node, open a new terminal, enter  
+* Launch teleop_twist_keyboard node, open a new terminal (Ctrl+Shift+T), enter  
 ```
-cd /home/workspace/RoboND-Term1-P4-Map-My-World/catkin_ws/
+cd /home/workspace/MapMyWorld/catkin_ws/
 source devel/setup.bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```  
 * Launch teleop_twist_keyboard node, open a new terminal, enter  
 ```
-cd /home/workspace/RoboND-Term1-P4-Map-My-World/catkin_ws/
+cd /home/workspace/MapMyWorld/catkin_ws/
 source devel/setup.bash
 roslaunch my_robot mapping.launch
 ```  
@@ -195,18 +195,16 @@ Send move command via teleop package to control your robot and observe real-time
 rtabmap-databaseViewer ~/.ros/rtabmap.db
 
 * View database
-Once you statisfied with your move, press `Ctrl + c` to exit then view your database with
+Once you statisfied with your move and the map is generated, press `Ctrl + C` to stop teleop, then view your database with
 ```
 rtabmap-databaseViewer ~/.ros/rtabmap.db
 ```
-Remember to rename your `~/.ros/rtabmap.db` before your next attempt since it will be deleted due to the launch file setting in `mapping.launch`
+Remember to move or copy your `~/.ros/rtabmap.db` before your next attempt since it will be deleted due to the launch file setting in `mapping.launch`.
+
+Enjoy!
 
 ## Tips  
 1. It's recommended to update and upgrade your environment before running the code.  
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
 ```
-2. Remember to rename your `~/.ros/rtabmap.db` before your next attempt since it will be deleted due to the launch file setting in `mapping.launch`
-
-## Code Style  
-Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
