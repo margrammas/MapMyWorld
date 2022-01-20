@@ -1,1295 +1,1291 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
   <model name='worldchasesim'>
-    <pose frame=''>-0.494967 -1.2395 0 0 -0 0</pose>
-    <link name='Stairs_0'>
-      <visual name='Stairs_0_Visual_0'>
-        <pose frame=''>3.21151 0.231825 0.083333 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_0'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>3.21151 0.231825 0.083333 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_1'>
-        <pose frame=''>2.97817 0.231825 0.25 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_1'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>2.97817 0.231825 0.25 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_2'>
-        <pose frame=''>2.74484 0.231825 0.416667 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_2'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>2.74484 0.231825 0.416667 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_3'>
-        <pose frame=''>2.51151 0.231825 0.583333 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_3'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>2.51151 0.231825 0.583333 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_4'>
-        <pose frame=''>2.27817 0.231825 0.75 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_4'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>2.27817 0.231825 0.75 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_5'>
-        <pose frame=''>2.04484 0.231825 0.916667 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_5'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>2.04484 0.231825 0.916667 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_6'>
-        <pose frame=''>1.81151 0.231825 1.08333 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_6'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>1.81151 0.231825 1.08333 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_7'>
-        <pose frame=''>1.57817 0.231825 1.25 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_7'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>1.57817 0.231825 1.25 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_8'>
-        <pose frame=''>1.34484 0.231825 1.41667 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_8'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>1.34484 0.231825 1.41667 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_9'>
-        <pose frame=''>1.11151 0.231825 1.58333 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_9'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>1.11151 0.231825 1.58333 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_10'>
-        <pose frame=''>0.878173 0.231825 1.75 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_10'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>0.878173 0.231825 1.75 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_11'>
-        <pose frame=''>0.64484 0.231825 1.91667 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_11'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>0.64484 0.231825 1.91667 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_12'>
-        <pose frame=''>0.411506 0.231825 2.08333 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_12'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>0.411506 0.231825 2.08333 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_13'>
-        <pose frame=''>0.178173 0.231825 2.25 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_13'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>0.178173 0.231825 2.25 0 -0 -1.5708</pose>
-      </collision>
-      <visual name='Stairs_0_Visual_14'>
-        <pose frame=''>-0.05516 0.231826 2.41667 0 -0 -1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_0_Collision_14'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-0.05516 0.231826 2.41667 0 -0 -1.5708</pose>
-      </collision>
-    </link>
-    <link name='Stairs_1'>
-      <visual name='Stairs_1_Visual_0'>
-        <pose frame=''>-3.53208 0.234378 0.083333 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_0'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-3.53208 0.234378 0.083333 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_1'>
-        <pose frame=''>-3.29875 0.234378 0.25 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_1'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-3.29875 0.234378 0.25 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_2'>
-        <pose frame=''>-3.06541 0.234378 0.416667 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_2'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-3.06541 0.234378 0.416667 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_3'>
-        <pose frame=''>-2.83208 0.234378 0.583333 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_3'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-2.83208 0.234378 0.583333 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_4'>
-        <pose frame=''>-2.59875 0.234378 0.75 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_4'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-2.59875 0.234378 0.75 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_5'>
-        <pose frame=''>-2.36541 0.234378 0.916667 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_5'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-2.36541 0.234378 0.916667 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_6'>
-        <pose frame=''>-2.13208 0.234378 1.08333 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_6'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-2.13208 0.234378 1.08333 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_7'>
-        <pose frame=''>-1.89875 0.234378 1.25 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_7'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-1.89875 0.234378 1.25 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_8'>
-        <pose frame=''>-1.66541 0.234378 1.41667 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_8'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-1.66541 0.234378 1.41667 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_9'>
-        <pose frame=''>-1.43208 0.234378 1.58333 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_9'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-1.43208 0.234378 1.58333 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_10'>
-        <pose frame=''>-1.19875 0.234378 1.75 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_10'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-1.19875 0.234378 1.75 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_11'>
-        <pose frame=''>-0.965413 0.234378 1.91667 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_11'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-0.965413 0.234378 1.91667 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_12'>
-        <pose frame=''>-0.732079 0.234378 2.08333 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_12'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-0.732079 0.234378 2.08333 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_13'>
-        <pose frame=''>-0.498746 0.234378 2.25 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_13'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-0.498746 0.234378 2.25 0 -0 1.5708</pose>
-      </collision>
-      <visual name='Stairs_1_Visual_14'>
-        <pose frame=''>-0.265413 0.234378 2.41667 0 -0 1.5708</pose>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Stairs_1_Collision_14'>
-        <geometry>
-          <box>
-            <size>1 0.233333 0.166667</size>
-          </box>
-        </geometry>
-        <pose frame=''>-0.265413 0.234378 2.41667 0 -0 1.5708</pose>
-      </collision>
-    </link>
-    <link name='Wall_0'>
-      <collision name='Wall_0_Collision'>
-        <geometry>
-          <box>
-            <size>10 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_0_Visual'>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>10 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <pose frame=''>-9.95952 -2.5e-05 0 0 0 -1.5708</pose>
-    </link>
-    <link name='Wall_1'>
-      <collision name='Wall_1_Collision'>
-        <geometry>
-          <box>
-            <size>20.0466 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_1_Visual'>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>20.0466 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <pose frame=''>0.042284 -4.92502 0 0 -0 0</pose>
-    </link>
-    <link name='Wall_12'>
-      <collision name='Wall_12_Collision'>
-        <geometry>
-          <box>
-            <size>10 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_12_Visual'>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>10 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <pose frame=''>9.99059 -2.5e-05 0 0 -0 1.5708</pose>
-    </link>
-    <link name='Wall_15'>
-      <collision name='Wall_15_Collision'>
-        <geometry>
-          <box>
-            <size>20 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_15_Visual'>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>20 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <pose frame=''>-0.034521 4.92497 0 0 -0 0</pose>
-    </link>
-    <link name='Wall_17'>
-      <pose frame=''>-8.06801 3.03346 0 0 0 -0.785398</pose>
-      <visual name='Wall_17_Visual_0'>
-        <pose frame=''>-1.47597 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>2.54806 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Wall_17_Collision_0'>
-        <geometry>
-          <box>
-            <size>2.54806 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>-1.47597 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_17_Visual_1'>
-        <pose frame=''>1.72403 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>2.05194 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Wall_17_Collision_1'>
-        <geometry>
-          <box>
-            <size>2.05194 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>1.72403 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_17_Visual_2'>
-        <pose frame=''>0.248064 0 2.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>0.9 0.15 0.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Wall_17_Collision_2'>
-        <geometry>
-          <box>
-            <size>0.9 0.15 0.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>0.248064 0 2.25 0 -0 0</pose>
-      </collision>
-    </link>
-    <link name='Wall_18'>
-      <pose frame=''>-6.1765 0.091953 0 0 0 -1.5708</pose>
-      <visual name='Wall_18_Visual_0'>
-        <pose frame=''>-0.797404 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>0.655192 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Wall_18_Collision_0'>
-        <geometry>
-          <box>
-            <size>0.655192 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>-0.797404 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_18_Visual_1'>
-        <pose frame=''>0.777596 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>0.694808 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Wall_18_Collision_1'>
-        <geometry>
-          <box>
-            <size>0.694808 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>0.777596 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_18_Visual_2'>
-        <pose frame=''>-0.019808 0 2.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>0.9 0.15 0.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Wall_18_Collision_2'>
-        <geometry>
-          <box>
-            <size>0.9 0.15 0.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>-0.019808 0 2.25 0 -0 0</pose>
-      </collision>
-    </link>
-    <link name='Wall_19'>
-      <pose frame=''>-8.04126 -2.94154 0 0 0 -2.32535</pose>
-      <visual name='Wall_19_Visual_0'>
-        <pose frame=''>-1.76664 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>2.06156 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Wall_19_Collision_0'>
-        <geometry>
-          <box>
-            <size>2.06156 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>-1.76664 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_19_Visual_1'>
-        <pose frame=''>1.48078 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>2.63328 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Wall_19_Collision_1'>
-        <geometry>
-          <box>
-            <size>2.63328 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>1.48078 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_19_Visual_2'>
-        <pose frame=''>-0.285861 0 2.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>0.9 0.15 0.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <collision name='Wall_19_Collision_2'>
-        <geometry>
-          <box>
-            <size>0.9 0.15 0.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>-0.285861 0 2.25 0 -0 0</pose>
-      </collision>
-    </link>
-    <link name='Wall_21'>
-      <collision name='Wall_21_Collision'>
-        <geometry>
-          <box>
-            <size>2.5 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_21_Visual'>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>2.5 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <pose frame=''>5.97343 2.59113 0 0 -0 2.35619</pose>
-    </link>
-    <link name='Wall_23'>
-      <collision name='Wall_23_Collision'>
-        <geometry>
-          <box>
-            <size>2.25 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_23_Visual'>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>2.25 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <pose frame=''>8.12796 0.20848 0 0 -0 0.785398</pose>
-    </link>
-    <link name='Wall_25'>
-      <collision name='Wall_25_Collision'>
-        <geometry>
-          <box>
-            <size>2.5 0.15 2.5</size>
-          </box>
-        </geometry>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_25_Visual'>
-        <pose frame=''>0 0 1.25 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>2.5 0.15 2.5</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-          <ambient>0.921569 0.807843 0.615686 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <pose frame=''>6.38094 -2.7108 0 0 0 -0.785398</pose>
-    </link>
-    <link name='Wall_27'>
-      <collision name='Wall_27_Collision'>
-        <geometry>
-          <box>
-            <size>7.25 0.15 0.25</size>
-          </box>
-        </geometry>
-        <pose frame=''>0 0 0.125 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_27_Visual'>
-        <pose frame=''>0 0 0.125 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>7.25 0.15 0.25</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <pose frame=''>-0.166451 -0.310078 0 0 -0 0</pose>
-    </link>
-    <link name='Wall_29'>
-      <collision name='Wall_29_Collision'>
-        <geometry>
-          <box>
-            <size>7.25 0.15 0.25</size>
-          </box>
-        </geometry>
-        <pose frame=''>0 0 0.125 0 -0 0</pose>
-      </collision>
-      <visual name='Wall_29_Visual'>
-        <pose frame=''>0 0 0.125 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>7.25 0.15 0.25</size>
-          </box>
-        </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Bricks</name>
-          </script>
-          <ambient>1 1 1 1</ambient>
-        </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
-      </visual>
-      <pose frame=''>-0.196033 0.769504 0 0 -0 0</pose>
-    </link>
-    <static>1</static>
+    <model name='bookshelf_large'>
+      <link name='link_1'>
+        <pose frame=''>-0.000121 -2.1e-05 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bookshelf_large/meshes/frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://bookshelf_large/materials/scripts</uri>
+              <uri>model://bookshelf_large/materials/textures</uri>
+              <name>bookshelf</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bookshelf_large/meshes/frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_2'>
+        <pose frame=''>0.000122 2.1e-05 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bookshelf_large/meshes/glass.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.3 0.7 0.8 1</ambient>
+            <diffuse>0.3 0.9 0.9 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0.5</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bookshelf_large/meshes/glass.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>-4.51196 4.08379 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='bookshelf_large_0'>
+      <link name='link_1'>
+        <pose frame=''>-0.000121 -2.1e-05 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bookshelf_large/meshes/frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://bookshelf_large/materials/scripts</uri>
+              <uri>model://bookshelf_large/materials/textures</uri>
+              <name>bookshelf</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bookshelf_large/meshes/frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_2'>
+        <pose frame=''>0.000122 2.1e-05 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bookshelf_large/meshes/glass.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.3 0.7 0.8 1</ambient>
+            <diffuse>0.3 0.9 0.9 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0.5</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bookshelf_large/meshes/glass.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>-6.20292 4.0836 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='chair_3'>
+      <link name='link_4'>
+        <pose frame=''>-0.282457 -0.259387 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_3/meshes/model.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_3/meshes/model.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>-9.50601 -0.970382 -0.179061 0 -0 1.55331</pose>
+    </model>
+    <model name='chair_3_0'>
+      <link name='link_4'>
+        <pose frame=''>-0.282457 -0.259387 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_3/meshes/model.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_3/meshes/model.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>-9.5176 0.149741 -0.179061 0 -0 1.57869</pose>
+    </model>
+    <model name='chair_3_1'>
+      <link name='link_4'>
+        <pose frame=''>-0.282457 -0.259387 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_3/meshes/model.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_3/meshes/model.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>8.13301 2.27453 -0.179061 0 0 -1.51984</pose>
+    </model>
+    <model name='chair_3_2'>
+      <link name='link_4'>
+        <pose frame=''>-0.282457 -0.259387 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_3/meshes/model.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_3/meshes/model.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>7.01023 2.25044 -0.179061 0 -0 1.5828</pose>
+    </model>
+    <model name='chair_3_3'>
+      <link name='link_4'>
+        <pose frame=''>-0.282457 -0.259387 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_3/meshes/model.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_3/meshes/model.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>1.57941 3.47308 -0.179061 0 -0 3.10332</pose>
+    </model>
+    <model name='chair_set_2'>
+      <link name='link_10'>
+        <pose frame=''>0.020402 -0.647852 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_set_2/meshes/chair_frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://chair_set_2/materials/scripts</uri>
+              <uri>model://chair_set_2/materials/textures</uri>
+              <name>chair_set_2</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_set_2/meshes/chair_frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_11'>
+        <pose frame=''>0.015343 -0.628735 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_set_2/meshes/chair_cushions.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://chair_set_2/materials/scripts</uri>
+              <uri>model://chair_set_2/materials/textures</uri>
+              <name>chair_set_2</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://chair_set_2/meshes/chair_cushions.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>1.79669 -1.44998 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='coffee_table_set_2'>
+      <link name='link_23'>
+        <pose frame=''>-0.484126 0.097281 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://coffee_table_set_2/meshes/table_large_base.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.6 0.6 0.6 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://coffee_table_set_2/meshes/table_large_base.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_24'>
+        <pose frame=''>-0.486424 0.095005 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://coffee_table_set_2/meshes/table_large_surface.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.145 0.831 0.792 1</ambient>
+            <diffuse>0.045 0.731 0.692 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0.6</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://coffee_table_set_2/meshes/table_large_surface.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>7.61756 2.19704 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='desk_brown'>
+      <link name='link_22'>
+        <pose frame=''>-0.937597 -0.312704 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://desk_brown/meshes/table.dae</uri>
+              <scale>0.98 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://desk_brown/materials/scripts</uri>
+              <uri>model://desk_brown/materials/textures</uri>
+              <name>desk_brown</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://desk_brown/meshes/table.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>1.63121 3.92289 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='lamp_large'>
+      <link name='link_0'>
+        <pose frame=''>0.438972 0.033388 0.265807 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://lamp_large/meshes/base.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0.2 0.2 0.2 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0.2 0.2 0.2 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://lamp_large/meshes/base.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_1'>
+        <pose frame=''>0.438658 0.032085 0.259589 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://lamp_large/meshes/head.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.698 0.796 0.4392 1</ambient>
+            <diffuse>0.698 0.796 0.4392 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://lamp_large/meshes/head.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>-10.0533 -4.23046 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='lamp_table_small'>
+      <link name='link_20'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://lamp_table_small/meshes/lamp_base.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.698 0.9843 0.9137 1</ambient>
+            <diffuse>0.698 0.9843 0.9137 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://lamp_table_small/meshes/lamp_base.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_21'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://lamp_table_small/meshes/lamp_head.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.596 0.9254 0.8431 1</ambient>
+            <diffuse>0.596 0.9254 0.8431 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://lamp_table_small/meshes/lamp_head.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>2.31479 4.10868 0.526607 0 -0 0</pose>
+    </model>
+    <model name='picture_frame_large_1'>
+      <link name='link_15'>
+        <pose frame=''>-0.022373 -0.229768 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_1/meshes/frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://picture_frame_large_1/materials/scripts</uri>
+              <uri>model://picture_frame_large_1/materials/textures</uri>
+              <name>frame_text</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_1/meshes/frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_17'>
+        <pose frame=''>-0.022373 -0.229768 0 0 -0 0</pose>
+        <gravity>1</gravity>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_1/meshes/center.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://picture_frame_large_1/materials/scripts</uri>
+              <uri>model://picture_frame_large_1/materials/textures</uri>
+              <name>pic_frame_large</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_1/meshes/center.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>0.077663 -5.37131 0.752356 0 -0 1.53883</pose>
+    </model>
+    <model name='picture_frame_large_8'>
+      <link name='link_15'>
+        <pose frame=''>-0.022373 -0.229768 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_8/meshes/frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://picture_frame_large_8/materials/scripts</uri>
+              <uri>model://picture_frame_large_8/materials/textures</uri>
+              <name>frame_text</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_8/meshes/frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_17'>
+        <pose frame=''>-0.022373 -0.229768 0 0 -0 0</pose>
+        <gravity>1</gravity>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_8/meshes/center.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://picture_frame_large_8/materials/scripts</uri>
+              <uri>model://picture_frame_large_8/materials/textures</uri>
+              <name>pic_frame_large_8</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_8/meshes/center.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>3.10611 -5.38485 0.838292 0 -0 1.58293</pose>
+    </model>
+    <model name='picture_frame_large_8_0'>
+      <link name='link_15'>
+        <pose frame=''>-0.022373 -0.229768 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_8/meshes/frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://picture_frame_large_8/materials/scripts</uri>
+              <uri>model://picture_frame_large_8/materials/textures</uri>
+              <name>frame_text</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_8/meshes/frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_17'>
+        <pose frame=''>-0.022373 -0.229768 0 0 -0 0</pose>
+        <gravity>1</gravity>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_8/meshes/center.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://picture_frame_large_8/materials/scripts</uri>
+              <uri>model://picture_frame_large_8/materials/textures</uri>
+              <name>pic_frame_large_8</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://picture_frame_large_8/meshes/center.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>-3.15999 -5.3665 0.731659 0 -0 1.61618</pose>
+    </model>
+    <model name='side_table_set_2'>
+      <link name='link_25'>
+        <pose frame=''>0.894224 -0.796632 -0.029004 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://side_table_set_2/meshes/table_small_full.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.6 0.6 0.6 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://side_table_set_2/meshes/table_small_full.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>-0.935529 3.8868 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='sofa_set_2'>
+      <link name='link_8'>
+        <pose frame=''>-0.066892 -0.53459 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://sofa_set_2/meshes/sofa_frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://sofa_set_2/materials/scripts</uri>
+              <uri>model://sofa_set_2/materials/textures</uri>
+              <name>sofa_set_2</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://sofa_set_2/meshes/sofa_frame.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_9'>
+        <pose frame=''>-0.084902 -0.531458 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://sofa_set_2/meshes/sofa_cushions.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://sofa_set_2/materials/scripts</uri>
+              <uri>model://sofa_set_2/materials/textures</uri>
+              <name>sofa_set_2</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://sofa_set_2/meshes/sofa_cushions.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>-2.88648 -1.43701 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='table_conference_3'>
+      <link name='link_6'>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_conference_3/meshes/leg.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://table_conference_3/materials/scripts</uri>
+              <uri>model://table_conference_3/materials/textures</uri>
+              <name>table_conf_3</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_conference_3/meshes/leg.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_7'>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_conference_3/meshes/top.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.278 0.776 0.776 1</ambient>
+            <diffuse>0.278 0.776 0.776 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0.6</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_conference_3/meshes/top.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_8'>
+        <pose frame=''>0 1 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_conference_3/meshes/leg.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://table_conference_3/materials/scripts</uri>
+              <uri>model://table_conference_3/materials/textures</uri>
+              <name>table_conf_3</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_conference_3/meshes/leg.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <link name='link_9'>
+        <pose frame=''>0 -1 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_conference_3/meshes/leg.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://table_conference_3/materials/scripts</uri>
+              <uri>model://table_conference_3/materials/textures</uri>
+              <name>table_conf_3</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_conference_3/meshes/leg.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>-8.89717 -0.419767 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='table_dining'>
+      <link name='link_24'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_dining/meshes/table2.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://table_dining/materials/scripts</uri>
+              <uri>model://table_dining/materials/textures</uri>
+              <name>dining_table</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_dining/meshes/table2.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>7.55721 -3.20334 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='table_dining_0'>
+      <link name='link_24'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_dining/meshes/table2.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://table_dining/materials/scripts</uri>
+              <uri>model://table_dining/materials/textures</uri>
+              <name>dining_table</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_dining/meshes/table2.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>7.55967 -2.73014 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='table_dining_1'>
+      <link name='link_24'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_dining/meshes/table2.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://table_dining/materials/scripts</uri>
+              <uri>model://table_dining/materials/textures</uri>
+              <name>dining_table</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_dining/meshes/table2.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>7.55976 -2.25787 -0.179061 0 -0 0</pose>
+    </model>
+    <model name='vase_blue'>
+      <link name='link_27'>
+        <pose frame=''>-0.182739 -0.209101 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://vase_blue/meshes/vase.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <ambient>0.188 0.352 0.89 1</ambient>
+            <diffuse>0.188 0.352 0.89 1</diffuse>
+            <specular>0.01 0.01 0.01 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0.4</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://vase_blue/meshes/vase.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>-0.93908 3.90408 0.373421 0 -0 0</pose>
+    </model>
+    <model name='vase_large_2'>
+      <link name='link_31'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://vase_large_2/meshes/vase3_1.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://vase_large_2/materials/scripts</uri>
+              <uri>model://vase_large_2/materials/textures</uri>
+              <name>vase_pattern2</name>
+            </script>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://vase_large_2/meshes/vase3_1.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>0.666714 -1.51303 -0.179061 0 -0 0</pose>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
   </model>
 </sdf>
