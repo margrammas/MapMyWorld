@@ -1,4 +1,4 @@
-# RoboND - Project4: Map My World
+# RobotND - Project4: Map My World
 Project 4 of Udacity Robotics Software Engineer Nanodegree Program
 
 ![pic1](proj4_b.png)
